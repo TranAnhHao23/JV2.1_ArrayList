@@ -1,3 +1,5 @@
+package simplelist;
+
 public class MyListTest {
     public static void main(String[] args) {
         MyList<Integer> myList = new MyList<Integer>();
@@ -16,8 +18,6 @@ public class MyListTest {
 
         myList.get(6);
         System.out.println("element 6 : " + myList.get(6));
-
-
 
     }
 }
